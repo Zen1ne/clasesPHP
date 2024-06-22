@@ -1,0 +1,36 @@
+/* Estilos iniciales para el cuerpo y el formulario */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los elementos del formulario */
+.input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.error-border {
+    border: 2px solid red;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.input-border {
+    border: 2px solid blue;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+}
