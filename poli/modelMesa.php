@@ -2,7 +2,7 @@
 require_once 'modelMueble.php';
 
 
-class Mesa extends Mueble{
+final class Mesa extends Mueble{ //agregamos final para saber que va a ser la subclase final y ya no podra heredar
     public function __construct(
         string $sDescription,
         float $fPrecio,

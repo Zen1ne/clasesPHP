@@ -6,6 +6,7 @@ $marca="troncozo";
 $color="azul";
 $material="madera";
 $status="Agotados";
+$forma="Retangular";
 
 
 $objCama = new Producto($producto);
@@ -24,7 +25,7 @@ print_r("</pre>");
 
 
 
-$objMesa=new Mesa($producto,$precio,$marca,$color,$material,$status,"Rectanguloar","Grande");
+$objMesa=new Mesa($producto,$precio,$marca,$color,$material,$status,$forma,"Grande");
 $objMesa->setPrecio($precio);
 $objMesa->setStatus("Vacio");
 $arrMe=$objMesa->getInfoProducto();
