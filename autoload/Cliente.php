@@ -1,5 +1,6 @@
 <?php
-require_once "modelPersona.php";
+//require_once "modelPersona.php";
+require_once "autoload.php";
 class Cliente extends Persona {
     protected $fCredito;
     function __construct(

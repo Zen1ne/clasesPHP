@@ -4,8 +4,9 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 
-require_once "modelEmpleado.php";
-require_once "modelCliente.php";
+//require_once "modelEmpleado.php";
+//require_once "modelCliente.php";
+require_once "autoload.php";
 
 
 
