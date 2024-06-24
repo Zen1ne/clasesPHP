@@ -26,7 +26,7 @@ class Calcular implements Operacions, Operacion_basica{
             $option == "-" =>"Resta! 🦖  ".$val1-$val2,
             $option == "*" =>"Multiplicacion! 🎟 ✈ 🛬  ".$val1*$val2,
             $option == "/"  =>"Division! 🗑 ⏰ ".$val1/$val2,
-            default => "No es una opcion solo del * + - / ⚔ 🔫 🗡 🗡 🗡  "
+            default => 'No es una opcion valida *, +, -, /  ⚔ 🔫 🗡 🗡 🗡  '
 
     };
         
