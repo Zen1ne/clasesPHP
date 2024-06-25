@@ -1,4 +1,5 @@
 <?php
+namespace Models;
 abstract class Persona{ //para crear una clase abstracta
     public string $message;
     function __construct(

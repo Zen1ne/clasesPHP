@@ -1,5 +1,8 @@
 <?php
-require_once "modelPersona.php";
+namespace Controllers;
+//require_once "../models/Persona.php";
+require_once "../autoload.php";
+use models\Persona;
 class Empleado extends Persona{//hereda los parametros de Persona
     protected $sPuesto;
     function __construct(
